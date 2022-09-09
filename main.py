@@ -92,7 +92,7 @@ async def set_timer(bot, message):
                     user_input_time -=1
                 await finish_countdown.edit("🚨 Beep! Beep!! **TIME'S UP!!!**")
             else:
-                await get_user_input_time.edit(f"🤷🏻‍♂️ I can't countdown from {user_input_time}")
+                pass
             
                 
     except FloodWait as e:
