@@ -11,9 +11,9 @@ time.tzset()
 
 bot = Client(
     'MY first project',
-    api_id=7009965,
-    api_hash="06651b174c4f0591deb0ed1e5663c996",
-    bot_token="5726101213:AAElmnk4zXVZiDMdHIOoxd03m-BxAJDifFw"
+    api_id=config("api_id",default=None),
+    api_hash=config("api_hash",default=None),
+    bot_token=config("bot_token",default=None)
     
 )
 
