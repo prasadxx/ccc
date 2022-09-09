@@ -13,4 +13,4 @@ RUN bash installer.sh
 WORKDIR "/root/prasadxx"
 
 # start the bot.
-CMD ["bash", "startup"]
+CMD python3 main.py
