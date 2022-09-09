@@ -1,4 +1,4 @@
-REPO="REPO="https://github.com/TeamUltroid/Ultroid.git"
+REPO="REPO="https://github.com/prasadxx/tgbotlk.git"
 DIR="/root/prasadxx"
 
 spinner(){
@@ -27,11 +27,7 @@ clone_repo(){
                 then
                     git checkout $BRANCH
             fi
-            if [ -d "addons" ]
-                then
-                    cd addons
-                    git pull
-            fi
+            
             return
     fi
     echo -e "Cloning Ultroid ${BRANCH}... "
@@ -82,14 +78,9 @@ clone_repo(){
                 then
                     git checkout $BRANCH
             fi
-            if [ -d "addons" ]
-                then
-                    cd addons
-                    git pull
-            fi
-            return
+            
     fi
-    echo -e "Cloning prasadxx ${BRANCH}... "
+    echo -e "Cloning tgbotlk ${BRANCH}... "
     git clone -b $BRANCH $REPO $DIR
 }
 
