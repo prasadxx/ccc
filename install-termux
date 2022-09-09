@@ -1,9 +1,0 @@
-if [ -d "resources" ]
-then
-    echo "Current directory Identified.."
-else
-    apt install git -y
-    git clone https://github.com/prasadxx/tgbotlk
-    cd tgbotlk
-fi
-bash termux.sh
