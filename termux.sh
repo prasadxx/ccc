@@ -16,4 +16,4 @@ printf "*Putting some magical effect...*"
 pip install -q colorama
 
 printf "Running up Installation tool.\n"
-python resources/startup/_termux.py
+python main.py
