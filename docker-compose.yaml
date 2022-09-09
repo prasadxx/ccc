@@ -1,5 +1,4 @@
-build:
-  docker:
-    worker: Dockerfile
-run:
-  worker: python3 main.py
+version: "3.9"
+services:
+  worker:
+    build: .
