@@ -1,7 +1,7 @@
 FROM python:3.10
 
 RUN apt update && apt upgrade -y
-RUN apt install git curl python3-pip 
+
 
 # Copying Requirements
 COPY requirements.txt /requirements.txt
